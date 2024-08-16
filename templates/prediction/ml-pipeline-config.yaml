@@ -12,7 +12,7 @@ Metadata:
         - "A combination of Serverless Transform and metadata not being passed through (yet) means that we need to globally exclude E9007 until an upstream workaround is available."
 Globals:
   Function:
-    Runtime: python3.7
+    Runtime: python3.12
     Timeout: 240
 
 Resources:
